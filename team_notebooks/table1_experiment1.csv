@@ -1,0 +1,16 @@
+Model,FeatureSet,CV Acc Mean,CV Acc Std,Test Accuracy,Macro Precision,Macro Recall,Macro F1,Weighted Precision,Weighted Recall,Weighted F1,fold,accuracy,precision_macro,recall_macro,f1_macro,roc_auc_macro,mean_cv_accuracy,mean_f1_weighted,final_accuracy
+KNN,Baseline,0.57,0.051,0.533,0.608,0.533,0.536,0.608,0.533,0.536,,,,,,,,,
+KNN,FeatureSelect,0.76,0.116,0.767,0.757,0.767,0.754,0.757,0.767,0.754,,,,,,,,,
+KNN,PCA (n=16),0.56,0.037,0.5,0.562,0.5,0.512,0.562,0.5,0.512,,,,,,,,,
+RF,Baseline,,,,,,,,,,3.0,0.8,0.853,0.8,0.793,0.951,,,
+RF,FS,,,,,,,,,,3.0,0.77,0.781,0.77,0.757,0.945,,,
+RF,PCA,,,,,,,,,,3.0,0.72,0.772,0.72,0.714,0.9,,,
+SVC,Baseline,,,,,,,,,,,,,,,,0.73,0.724,
+SVC,PCA,,,,,,,,,,,,,,,,0.76,0.751,
+SVC,f_select,,,,,,,,,,,,,,,,0.78,0.772,
+NN,Baseline,,,,,,,,,,,,,,,,0.81,,0.45
+NN,KPCA,,,,,,,,,,,,,,,,0.26,,0.23
+NN,LDA,,,,,,,,,,,,,,,,0.94,,0.22
+NN,PCA,,,,,,,,,,,,,,,,0.68,,0.66
+NN,f_select,,,,,,,,,,,,,,,,0.48,,0.24
+NN,tSNE,,,,,,,,,,,,,,,,0.43,,0.19

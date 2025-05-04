@@ -1,0 +1,7 @@
+,mean_cv_accuracy,std_cv_accuracy,final_accuracy
+Baseline,0.81,0.139284,0.45
+PCA,0.68,0.196469,0.66
+tSNE,0.43,0.150333,0.19
+LDA,0.94,0.05831,0.22
+KPCA,0.26,0.037417,0.23
+f_select,0.48,0.09798,0.24
